@@ -1,0 +1,38 @@
+body {
+    background-color:#ddd;
+}
+
+div {
+
+}
+
+#first {
+    height: 50px;
+    width: 50px;
+    background-color: green;
+    display: inline-block;
+}
+
+
+#second {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 0, 200);
+    display: inline-block;
+}
+
+button {
+    background-color: chartreuse;
+    border-style: groove;
+    border: 2px solid rgb(255, 227, 47);
+}
+
+button:hover {
+    background-color: rgb(0, 255, 213);
+}
+
+.prompt {
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}

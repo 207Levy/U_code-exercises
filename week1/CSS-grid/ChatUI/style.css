@@ -1,0 +1,64 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  height: 500px;
+}
+
+.friends-menu {
+  display: grid;
+  background-color: rgb(206, 12, 206);
+}
+
+.friends-menu > p {
+  display: grid;
+  align-content: end;
+  border-radius: 2px;
+  height: fit-content;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: pink;
+}
+
+.chat {
+  display: grid;
+  background-color: antiquewhite;
+  grid-template-rows: 90% 10%;
+}
+
+.msg {
+  display: grid;
+  position: relative;
+  grid-template-columns: 2fr 1fr;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+#box {
+  position: relative;
+}
+.p1 {
+  left: 5px;
+  background-color: gainsboro;
+}
+
+.p2 {
+  display: inline-block;
+  margin-right: 0;
+  background-color: rgb(63, 216, 63);
+  justify-content: end;
+}
+
+#input-bar {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.send-btn {
+  background-color: rgb(206, 12, 206);
+}
+
+.send-btn:hover {
+  background-color: rgb(221, 140, 221);
+}

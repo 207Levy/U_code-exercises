@@ -1,0 +1,19 @@
+body {
+    background-image: url(https://images.chesscomfiles.com/uploads/v1/article/27319.746c2259.668x375o.c6cf8543e2d5@2x.png) ;
+
+    height:auto; 
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.transparent{
+    color: rgba(100%, 0%, 0%, 0.3);
+    background-color: rgba(10%, 50%, 50%, 0.3);
+    display: inline-block;
+}
+
+h1 {
+    color: rgba(100%, 0%, 0%, 1);
+    background-color: rgba(10%, 50%, 50%, 1);
+    width: 300px;
+}
