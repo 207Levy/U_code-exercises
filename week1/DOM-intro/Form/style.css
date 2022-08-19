@@ -1,0 +1,70 @@
+
+
+body{
+    background-color:aquamarine;
+}
+
+#form {
+    display: grid;
+    grid-template-areas: 
+    "n n"
+    "s b"
+    "p p"
+    "l l";
+    grid-gap: 25%;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+
+.name{
+    display: grid;
+    grid-area: n;
+}
+
+.salary{
+    display: grid;
+    grid-area: s;
+}
+
+.birthday {
+    display: grid;
+    grid-area: b;
+}
+
+.phone {
+    display: grid;
+    grid-area: p;
+}
+.log{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-area: l;
+}
+
+.tag{
+    font-family: cursive;
+    font-size: large;
+}
+
+button {
+    display: grid;
+    justify-self: end;
+    width: 100px;
+    background-color:chartreuse;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color:aquamarine
+
+
+}
+
+#error {
+    display: grid;
+    justify-self:center;
+    color: red;
+    font-size: larger;
+    
+}

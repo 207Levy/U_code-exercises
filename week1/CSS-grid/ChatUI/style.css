@@ -2,6 +2,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 4fr;
   height: 500px;
+  grid-gap: 3px;
 }
 
 .friends-menu {
@@ -16,7 +17,7 @@ body {
   height: fit-content;
   margin-right: 10px;
   margin-left: 10px;
-  background-color: pink;
+  background-color: rgb(224, 82, 213);
 }
 
 .chat {
@@ -25,29 +26,64 @@ body {
   grid-template-rows: 90% 10%;
 }
 
-.msg {
+/* .msg {
   display: grid;
-  position: relative;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: "m e" "m t ";
   width: fit-content;
   border-radius: 5px;
   background-color: white;
   margin-bottom: 15px;
+  grid-area: "p";
+} */
+
+.msg {
+  display: grid;
 }
 
+.txt {
+  font-family: cursive;
+  font-size: 22px;
+  grid-area: m;
+}
+
+.time {
+  grid-area: t;
+}
 #box {
   position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "p";
 }
 .p1 {
-  left: 5px;
-  background-color: gainsboro;
+  background-color: rgb(144, 236, 224);
+  width: fit-content;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: "m e" "m t ";
+  width: fit-content;
+  border-radius: 5px;
+
+  margin-bottom: 15px;
+  grid-area: "p";
 }
 
 .p2 {
-  display: inline-block;
-  margin-right: 0;
+  position: relative;
+  width: fit-content;
+  justify-self: end;
   background-color: rgb(63, 216, 63);
-  justify-content: end;
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas: "m e" "m t ";
+  width: fit-content;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  grid-area: "p";
 }
 
 #input-bar {
