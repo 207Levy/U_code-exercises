@@ -1,0 +1,28 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "n"
+    "m";
+  grid-gap: 10px;
+  background-color: blanchedalmond;
+}
+
+.nav-bar {
+  display: grid;
+  grid-area: n;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+.nav {
+  display: grid;
+  background-color: dodgerblue;
+  justify-content: center;
+}
+.injected {
+  background-color: blanchedalmond;
+  grid-area: "m";
+}
+
+.nav:hover {
+  background-color: rgba(35, 142, 248, 0.541);
+}
