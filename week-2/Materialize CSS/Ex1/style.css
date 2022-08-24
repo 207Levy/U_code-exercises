@@ -1,0 +1,36 @@
+body {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  grid-template-areas: "u" "d";
+  justify-content: center;
+  align-content: center;
+  background-color: red;
+}
+body h1 {
+  color: aliceblue;
+}
+body #login {
+  grid-area: "u";
+}
+body #login input {
+  display: block;
+  margin: 5%;
+  border: 2px solid #58b6f5;
+  border-radius: 5px;
+  box-shadow: 1px 2px 10px #2c3e50;
+}
+body #login button {
+  border-radius: 10px;
+  border: 0;
+  width: 25%;
+  display: inline;
+  background-image: #f0f0f0;
+}
+body img {
+  width: 5%;
+}
+body #website {
+  display: block;
+  grid-area: "d";
+  background-color: #c01a1a;
+}

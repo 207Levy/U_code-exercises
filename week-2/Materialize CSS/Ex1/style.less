@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-areas: "u" "d";
+    justify-content: center;
+    align-content: center;
+    background-color: red;
+    h1{
+        color:aliceblue
+    }
+    #login{
+        grid-area: "u";
+        input {
+            display: block;
+            margin: 5%;
+            border: 2px solid #58b6f5;
+            border-radius: 5px;
+            box-shadow: 1px 2px 10px #2c3e50;
+          }
+    
+        button{
+            &:extend(.input);
+            border-radius: 10px;
+            border: 0;
+            width: 25%;
+            display: inline;
+            background-image: #f0f0f0;
+        }
+
+    }
+    
+
+    img {
+        width:5%
+    }
+    
+    #website{
+        display: block;
+        grid-area: "d";
+        background-color: rgb(192, 26, 26);
+    }
+}
