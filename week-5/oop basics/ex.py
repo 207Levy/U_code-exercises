@@ -1,8 +1,10 @@
 class YouTubeLessonManager:
+    
     def __init__(self):
         self.lessons = {}
     
     def save(self, key, value):
+    
         key = key.replace(' ', '-')
         self.lessons[key.lower()] = value
     
